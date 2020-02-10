@@ -1,0 +1,40 @@
+title: GEO Label
+#email: your-email@example.com
+description: >-
+  The GEO Label is a metadata label for standardised geospatial metadata to improve discovery of datasets. It was developed in the FP7 project GeoViQua.
+baseurl: ""
+url: "https://geolabel.net"
+author: "GeoViQua, Daniel Nüst, Victoria Lush, Joan Masó"
+
+markdown: kramdown
+theme: minima-reboot
+
+plugins:
+  - jekyll-seo-tag
+
+# https://github.com/aterenin/minima-reboot/#adding-new-links-to-footer
+footer_icons:
+  - username: GeoViQua
+    url: https://github.com/GeoViQua/GEO-label-java
+    icon: icon-github.svg
+  - username: nuest
+    url: https://github.com/nuest/GEO-label-java
+    icon: icon-github.svg
+  - username: Daniel Nüst
+    url: mailto:daniel.nuest@uni-muenster.de
+    icon: icon-email.svg
+
+header_pages:
+  - index.md
+  - implementations.md
+  - api.md
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - travis.sh
+  - .travis.yml
+  - Makefile
+
+error_mode: strict

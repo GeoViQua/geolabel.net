@@ -1,0 +1,54 @@
+body {
+  font-family: "PT Sans", Helvetica, Arial, sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+  color: #00376B;
+  margin-top: 3rem;
+}
+
+.text-blue {
+  color: #00376B;
+  font-weight: bolder;
+}
+
+footer {
+  font-size: 90%;
+}
+
+#nav-header {
+  border-top: 0 !important;
+  margin-bottom: 2rem;
+  background-image: url("geolabel-banner-bg.png");
+  background-repeat: repeat-x;
+}
+
+#nav-container {
+  height: 100px;
+}
+
+blockquote {
+  background-color: #e7e7e7;
+  padding: 1rem;
+  border-left: 2px solid #00376B;
+}
+
+@media screen and (min-width: 400px) {
+  body   {
+    font-size: 1.2em;
+  }
+
+  ol {
+    max-width: 80%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  body   {
+    font-size: 1.4em;
+  }
+
+  ol {
+    max-width: 60%;
+  }
+}
