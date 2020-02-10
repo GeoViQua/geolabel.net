@@ -39,9 +39,9 @@ Resulting label:
 
 ## References
 
-- Lush, V. 2015. **Visualisation of quality information for geospatial and remote sensing data: providing the GIS community with the decision support tools for geospatial dataset quality evaluation** ([PhD thesis](https://research.aston.ac.uk/en/studentTheses/visualisation-of-quality-information-for-geospatial-and-remote-se)
+- Lush, V. 2015. **Visualisation of quality information for geospatial and remote sensing data: providing the GIS community with the decision support tools for geospatial dataset quality evaluation** ([PhD thesis](https://research.aston.ac.uk/en/studentTheses/visualisation-of-quality-information-for-geospatial-and-remote-se))
 - Lush V., Bastin L., Lumsden J. 2013. **Developing a GEO Label**, GISRUK. ([paper](http://www.geos.ed.ac.uk/~gisteac/proceedingsonline/GISRUK2013/gisruk2013_submission_44.pdf))
-- Nüst, D., & Lush, V. 2015. **A GEO label for the Sensor Web**. https://doi.org/10.31223/osf.io/ka38z ([short paper](https://agile-online.org/Conference_Paper/cds/agile_2015/shortpapers/115/115_Paper_in_PDF.pdf) at the 18th AGILE International Conference on Geographic Information Science, Lisbon, Portugal)
+- Nüst, D., & Lush, V. 2015. **A GEO label for the Sensor Web**. [https://doi.org/10.31223/osf.io/ka38z](https://doi.org/10.31223/osf.io/ka38z) ([short paper](https://agile-online.org/Conference_Paper/cds/agile_2015/shortpapers/115/115_Paper_in_PDF.pdf) at the 18th AGILE International Conference on Geographic Information Science, Lisbon, Portugal)
 - Graupner, A. 2020. Ein Metadatenlabel für das semantische Sensorweb. (Bachelor thesis, to be published)
 
 For broader references see also the [official GEO Label website](http://www.geolabel.info/references.htm).
