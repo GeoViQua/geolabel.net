@@ -13,16 +13,17 @@ jobs:
       # https://github.com/marketplace/actions/setup-ruby-for-use-with-actions
       - name: Setup Ruby for use with actions
         uses: actions/setup-ruby@v1.0.0
-      - name: Build Jekyll page
-        run: |
-          gem update bundler
-          bundle install
-          bundle exec jekyll build --trace
       - name: Checkout
         uses: actions/checkout@v2 # If you're using actions/checkout@v2 you must set persist-credentials to false in most cases for the deployment to work correctly.
         with:
           persist-credentials: false
-    # https://github.com/marketplace/actions/deploy-to-github-pages
+      - name: Build Jekyll page
+        # alternative: https://github.com/marketplace/actions/jekyll-action
+        run: |
+          gem update bundler
+          bundle install
+          bundle exec jekyll build --trace
+      # https://github.com/marketplace/actions/deploy-to-github-pages
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@3.2.1
         with:
