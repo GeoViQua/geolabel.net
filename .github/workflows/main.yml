@@ -1,15 +1,23 @@
 name: CI
 
-on: [push]
+on:
+  push:	
+    branches:	
+      - master
 
 jobs:
   build:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Deploy to GitHub Pages
-      uses: JamesIves/github-pages-deploy-action@3.2.1
-      with:
-        ACCESS_TOKEN: # optional
-        BRANCH: master 
-        FOLDER: _site/ 
+      - name: Checkout
+        uses: actions/checkout@v2 # If you're using actions/checkout@v2 you must set persist-credentials to false in most cases for the deployment to work correctly.
+        with:
+          persist-credentials: false
+    # https://github.com/marketplace/actions/deploy-to-github-pages
+      - name: Deploy to GitHub Pages
+        uses: JamesIves/github-pages-deploy-action@3.2.1
+        with:
+          ACCESS_TOKEN: ${{ secrets.GH_PAT }}
+          BRANCH: master 
+          FOLDER: _site/
