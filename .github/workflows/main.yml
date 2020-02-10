@@ -2,7 +2,7 @@ name: CI
 
 on:
   push:	
-    branches:	
+    branches:
       - master
 
 jobs:
@@ -10,6 +10,14 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      # https://github.com/marketplace/actions/setup-ruby-for-use-with-actions
+      - name: Setup Ruby for use with actions
+        uses: actions/setup-ruby@v1.0.0
+      - name: Build Jekyll page
+        run: |
+          gem update bundler
+          bundle install
+          bundle exec jekyll build --trace
       - name: Checkout
         uses: actions/checkout@v2 # If you're using actions/checkout@v2 you must set persist-credentials to false in most cases for the deployment to work correctly.
         with:
