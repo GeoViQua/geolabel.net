@@ -36,5 +36,6 @@ exclude:
   - travis.sh
   - .travis.yml
   - Makefile
+  - .github
 
 error_mode: strict

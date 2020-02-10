@@ -27,5 +27,5 @@ make build
 
 ## Deploy
 
-The site is build by GitHub, see https://jekyllrb.com/docs/github-pages/.
-
+The site is build by a GitHub Action, see `.github/workflows/main.yml`.
+The required PAT is stored in this repo's secrets and was created by @nuest, see https://github.community/t5/GitHub-Actions/Github-action-not-triggering-gh-pages-upon-push/m-p/31266/highlight/true#M743 for future developments removing the need for a PAT.
