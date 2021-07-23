@@ -6,7 +6,7 @@ title: Home
 <img title="GeoViQua logo" src="{{ 'assets/geoviqua_logo.png' | relative_url }}" style="float: right" width="150" />
 
 The GEO Label is a metadata label to improve understandability of standardised geospatial metadata using a visual summary.
-It was developed in the FP7 project [**GeoViQua**](http://www.geoviqua.org).
+It was developed in the FP7 project [**GeoViQua**](https://www.creaf.uab.cat/projectes/geoviqua/).
 Find out more on the official GEO Label website: [http://www.geolabel.info/](http://www.geolabel.info/home.htm).
 
 This website presents the GEO Label Services, i.e., [implementations](/implementations) of a [RESTful API](/api) that allows generating GEO label in SVG, JSON, and PNG representations from supplied metadata records.
