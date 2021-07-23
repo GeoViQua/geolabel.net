@@ -12,7 +12,7 @@ jobs:
     steps:
       # https://github.com/marketplace/actions/setup-ruby-for-use-with-actions
       - name: Setup Ruby for use with actions
-        uses: actions/setup-ruby@v1.0.0
+        uses: ruby/setup-ruby@v1
       - name: Checkout
         uses: actions/checkout@v2 # If you're using actions/checkout@v2 you must set persist-credentials to false in most cases for the deployment to work correctly.
         with:
